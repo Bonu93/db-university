@@ -12,7 +12,10 @@ require_once __DIR__ . '/get_department.php';
     <title>Department Archive</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container py-3">
+        <h1>
+            Department Archive
+        </h1>
 
         <table class="table">
             <thead>
