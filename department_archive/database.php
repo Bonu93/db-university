@@ -10,8 +10,6 @@ define('DB_NAME', 'university');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-var_dump($conn);
-
 if ($conn->connect_error) {
     die('Errore di connessione');
 }

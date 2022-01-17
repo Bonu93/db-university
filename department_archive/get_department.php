@@ -15,5 +15,3 @@ if($result && $result->num_rows > 0) {
 } else {
     echo 'Errore';
 }
-
-var_dump($departments);
